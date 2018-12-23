@@ -1,4 +1,7 @@
+install.packages('fPortfolio')
+library(fPortfolio)
 library(remotes)
+
 
 ##### Install specific package versions from CRAN #####
 
