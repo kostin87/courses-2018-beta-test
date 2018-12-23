@@ -43,7 +43,8 @@ R<-diff(spy)/spy[-NROW(spy)]
 
 `@sct`
 ```{r}
-test_object("R")
+ex() %>% check_object("R") %>% check_equal()
+success_msg("Well done!")
 ```
 
 ---
@@ -88,6 +89,7 @@ r<-diff(log(spy))
 `@sct`
 ```{r}
 test_object("r")
+success_msg("Well done!")
 ```
 
 ---
@@ -133,6 +135,44 @@ hist(r,breaks = 50)
 `@sct`
 ```{r}
 test_function_result("hist")
+```
+
+---
+
+## Insert exercise title here
+
+```yaml
+type: NormalExercise
+key: 0e0cefe504
+xp: 100
+```
+
+
+
+`@instructions`
+
+
+`@hint`
+
+
+`@pre_exercise_code`
+```{r}
+
+```
+
+`@sample_code`
+```{r}
+
+```
+
+`@solution`
+```{r}
+
+```
+
+`@sct`
+```{r}
+
 ```
 
 ---
