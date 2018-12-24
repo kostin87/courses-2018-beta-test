@@ -26,6 +26,8 @@ skills: 5
 
 `@pre_exercise_code`
 ```{r}
+load(url('https://assets.datacamp.com/production/repositories/4264/datasets/2a1cb49c1085af50c535acf5f11f7211c08209bf/MSFT.RData'))
+load(url('https://assets.datacamp.com/production/repositories/4264/datasets/1aaea273f16388fed19feec2e06d2ba5984044d2/SPY.RData'))
 spy=SPY$SPY.Close
 msft=MSFT$MSFT.Close
 ```
