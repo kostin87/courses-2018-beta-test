@@ -37,9 +37,3 @@ download_data <- function(x) {
 # )
 
 
-
-r<-NULL
-assets<-c("SPY","IBM","AMZN","AMGN",'AAPL','GOOG','MSFT',"C",'GE')
-for(symbol in SP500){
-  getSymbols(symbol,src="yahoo")
-}
