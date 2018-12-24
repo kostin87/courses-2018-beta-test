@@ -26,7 +26,7 @@ skills: 5
 
 `@pre_exercise_code`
 ```{r}
-n=round(runif(1, min = 1, max = 30))
+
 ```
 
 `@sample_code`
