@@ -1,3 +1,6 @@
+install.packages(fPortfolio)
+install.packages(xts)
+install.packages(quantmod)
 library(fPortfolio)
 library(xts)
 library(quantmod)
