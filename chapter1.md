@@ -40,12 +40,16 @@ Rportf=
 
 `@solution`
 ```{r}
-R<-diff(spy)/spy[-NROW(spy)]
+Rspy =diff(spy)/spy[-NROW(spy)]
+Rmsft=diff(msft)/spy[-NROW(msft)]
+Rportf=0.5*Rspy+0.5*Rmsft
 ```
 
 `@sct`
 ```{r}
-ex() %>% check_object("R") %>% check_equal()
+ex() %>% check_object("Rspy") %>% check_equal()
+ex() %>% check_object("Rmsft") %>% check_equal()
+ex() %>% check_object("Rportf") %>% check_equal()
 success_msg("Well done!")
 ```
 
