@@ -28,6 +28,7 @@ skills: 5
 ```{r}
 
 spy=1:100
+msft=1:100
 ```
 
 `@sample_code`
