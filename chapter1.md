@@ -4,7 +4,7 @@ description: 'Тестирование по эконометрии'
 attachments: null
 ---
 
-## Вычисление обычой доходности
+## Вычисление обычной доходности
 
 ```yaml
 type: NormalExercise
@@ -26,7 +26,7 @@ skills: 5
 
 `@pre_exercise_code`
 ```{r}
-
+load('GE.RData')
 ```
 
 `@sample_code`
