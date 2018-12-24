@@ -36,4 +36,7 @@ download_data <- function(x) {
 #   "https://assets.datacamp.com/production/repositories/19/datasets/27a2a8587eff17add54f4ba288e770e235ea3325/coffee.csv"
 # )
 
-
+assets<-c("SPY","IBM","AMZN","AMGN",'AAPL','GOOG','MSFT',"C",'GE')
+for(symbol in assets){
+  getSymbols(symbol,src="yahoo")
+}
