@@ -1,4 +1,6 @@
 library(fPortfolio)
+library(xts)
+library(quantmod)
 library(remotes)
 
 
