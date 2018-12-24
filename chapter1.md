@@ -26,9 +26,8 @@ skills: 5
 
 `@pre_exercise_code`
 ```{r}
-
-spy=1:100
-msft=1:100
+spy=SPY$SPY.Close
+msft=MSFT$MSFT.Close
 ```
 
 `@sample_code`
