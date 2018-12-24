@@ -26,7 +26,7 @@ skills: 5
 
 `@pre_exercise_code`
 ```{r}
-load('GE.RData')
+
 spy=1:100
 ```
 
