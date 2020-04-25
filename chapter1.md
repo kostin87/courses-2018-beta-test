@@ -5,7 +5,7 @@ attachments: null
 free_preview: true
 ---
 
-## Вычисление логарифмической доходности
+## Вычисление логарифмической доходности 2
 
 ```yaml
 type: NormalExercise
