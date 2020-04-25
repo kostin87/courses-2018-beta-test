@@ -1,1 +1,1 @@
-# courses-2018-beta-test
+# Econometrics 2020 NSU
